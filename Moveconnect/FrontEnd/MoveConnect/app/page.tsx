@@ -43,7 +43,7 @@ export default function Home() {
           {/* Login Section */}
           <div className="flex flex-col gap-4 w-full">
             <div className="w-full flex justify-center [&>button]:w-full [&>button]:justify-center [&>button]:h-14 [&>button]:rounded-full [&>button]:text-base [&>button]:font-bold">
-              <ConnectButton connectText="Login with Wallet or Google" />
+              <ConnectButton connectText="Login with Slush Wallet" />
             </div>
 
             <Link href="/network" className="flex w-full items-center justify-center rounded-full h-14 border border-white/10 text-gray-300 font-bold hover:bg-white/5 transition-all">
