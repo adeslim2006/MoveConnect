@@ -34,3 +34,7 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
+sui-tool
+sui-node
+sui-debug
+sui-testnet-v1.62.0-ubuntu-x86_64.tgz
