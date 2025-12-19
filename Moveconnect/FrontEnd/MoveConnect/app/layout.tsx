@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import './globals.css';
 import { Providers } from './Providers'; //
-import { Navbar } from '../../Navbar'; // Ensure this path points to your Navbar file
+import { Navbar } from '../components/Navbar';
 
 export const metadata: Metadata = {
   title: 'MoveConnect - Web3 Networking',
