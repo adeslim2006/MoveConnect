@@ -23,7 +23,9 @@ export default function RootLayout({
         {/* FIX: Providers must wrap EVERYTHING that interacts with the wallet, including Navbar */}
         <Providers>
           <Navbar /> 
-          {children}
+          <div className="pt-28 md:pt-32"> 
+            {children}
+          </div>
         </Providers>
       </body>
     </html>
