@@ -3,5 +3,11 @@
     "@mysten/dapp-kit": "^0.19.11",
     "@mysten/sui": "^1.45.2",
     "@tanstack/react-query": "^5.90.12"
+  },
+  "devDependencies": {
+    "@types/node": "^25.0.3",
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3",
+    "typescript": "^5.9.3"
   }
 }
