@@ -38,3 +38,10 @@ sui-tool
 sui-node
 sui-debug
 sui-testnet-v1.62.0-ubuntu-x86_64.tgz
+move-analyzer
+sui-bridge
+sui-bridge-cli
+sui-data-ingestion
+sui-faucet
+sui-graphql-rpc
+sui-test-validator
