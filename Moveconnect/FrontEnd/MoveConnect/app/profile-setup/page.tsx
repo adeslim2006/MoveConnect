@@ -6,7 +6,7 @@ import { Transaction } from '@mysten/sui/transactions'
 import { useRouter } from 'next/navigation'
 import Image from 'next/image'
 
-// These must match the files you put in public/avatars/
+// Generated images for profile
 const AVATAR_OPTIONS = [
   '/avatars/avatar1.png',
   '/avatars/avatar2.png',
@@ -64,7 +64,7 @@ export default function ProfileFlow() {
         <div className="glass-panel border border-white/10 rounded-3xl p-8 flex flex-col gap-6 shadow-2xl bg-black/40 backdrop-blur-md">
           <h1 className="text-3xl font-bold text-center text-white">Setup Your Identity</h1>
           
-          {/* Avatar Selection */}
+          {/* Avatar Selection sections */}
           <div className="flex flex-col gap-3">
             <label className="text-sm font-medium ml-1 text-gray-300">Choose your Avatar</label>
             <div className="grid grid-cols-5 gap-3">
@@ -113,7 +113,7 @@ export default function ProfileFlow() {
             onClick={createProfileOnChain}
             className="w-full bg-primary text-black font-bold px-8 py-4 rounded-full mt-4 hover:opacity-90 transition-all shadow-[0_0_20px_rgba(43,238,121,0.3)]"
           >
-            Mint Profile
+            Create Profile
           </button>
         </div>
       </div>
