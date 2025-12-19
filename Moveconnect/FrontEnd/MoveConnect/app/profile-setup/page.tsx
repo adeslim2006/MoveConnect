@@ -34,11 +34,12 @@ export default function ProfileFlow() {
     tx.moveCall({
       target: `${process.env.NEXT_PUBLIC_PACKAGE_ID}::moveconnect::create_profile`,
       arguments: [
+        tx.object(process.env.NEXT_PUBLIC_STATE_ID!), // <--- ADD THIS LINE FIRST!
         tx.pure.string(displayName),
         tx.pure.string(aboutMe),
         tx.pure.string(twitter),
         tx.pure.string(linkedin),
-        tx.pure.string(selectedAvatar) // Sends the path of the chosen image
+        tx.pure.string(selectedAvatar)
       ],
     });
 
