@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # MoveConnect
 The Frictionless Web3 Networking Layer on Sui.
 MoveConnect is a decentralized networking dApp for builders on the sui network. It replaces physical business cards with "Crypto-Style" digital identities(SUI CARDS). By leveraging the Sui blockchain, we allow users to instantly connect, verify attendance at events via NFT badges, and manage their professional Web3 network through simple QR code interactions.
